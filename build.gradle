@@ -40,3 +40,7 @@ tasks.named('test') {
     systemProperty "jasypt.encryptor.password", project.getProperty("jasypt.encryptor.password")
 
 }
+
+jar{
+    enabled=false
+}
