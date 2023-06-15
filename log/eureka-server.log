@@ -1,0 +1,155 @@
+2023-06-15T15:03:04.246+09:00  INFO 89391 --- [main] com.example.eureka.EurekaApplication     : Starting EurekaApplication using Java 19.0.2 with PID 89391 (/Users/choedaegug/Desktop/대국이/Coding/practice/team/BaekMSA/Eureka-Server/out/production/classes started by choedaegug in /Users/choedaegug/Desktop/대국이/Coding/practice/team/BaekMSA/Eureka-Server)
+2023-06-15T15:03:04.248+09:00  INFO 89391 --- [main] com.example.eureka.EurekaApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-06-15T15:03:05.213+09:00  INFO 89391 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=65bfed37-157c-3028-96e1-189951d25088
+2023-06-15T15:03:05.256+09:00  INFO 89391 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2023-06-15T15:03:05.256+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2023-06-15T15:03:05.258+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-06-15T15:03:05.258+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-06-15T15:03:05.258+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:03:05.258+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-06-15T15:03:05.258+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-06-15T15:03:05.258+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2023-06-15T15:03:05.259+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:03:05.259+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:03:05.259+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource class path resource [eureka/server.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:03:05.419+09:00  INFO 89391 --- [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-06-15T15:03:05.427+09:00  INFO 89391 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-06-15T15:03:05.428+09:00  INFO 89391 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-06-15T15:03:05.566+09:00  INFO 89391 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2023-06-15T15:03:05.572+09:00  INFO 89391 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-15T15:03:05.572+09:00  INFO 89391 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-15T15:03:05.641+09:00  INFO 89391 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-15T15:03:05.641+09:00  INFO 89391 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1355 ms
+2023-06-15T15:03:06.163+09:00  INFO 89391 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-06-15T15:03:06.163+09:00  INFO 89391 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-06-15T15:03:06.261+09:00  INFO 89391 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-06-15T15:03:06.261+09:00  INFO 89391 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-06-15T15:03:07.066+09:00  WARN 89391 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-06-15T15:03:07.074+09:00  INFO 89391 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-06-15T15:03:07.088+09:00  INFO 89391 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-06-15T15:03:07.088+09:00  INFO 89391 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-06-15T15:03:07.092+09:00  INFO 89391 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1686808987092 with initial instances count: 0
+2023-06-15T15:03:07.110+09:00  INFO 89391 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-06-15T15:03:07.111+09:00  WARN 89391 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-06-15T15:03:07.120+09:00  INFO 89391 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-06-15T15:03:07.120+09:00  INFO 89391 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-06-15T15:03:07.125+09:00  INFO 89391 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-15T15:03:07.159+09:00  INFO 89391 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-06-15T15:03:07.167+09:00  INFO 89391 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-06-15T15:03:07.167+09:00  INFO 89391 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-06-15T15:03:07.168+09:00  INFO 89391 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-06-15T15:03:07.168+09:00  INFO 89391 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-06-15T15:03:07.168+09:00  INFO 89391 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-06-15T15:03:07.172+09:00  INFO 89391 --- [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-06-15T15:03:07.173+09:00  INFO 89391 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2023-06-15T15:03:07.173+09:00  INFO 89391 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] u.j.c.RefreshScopeRefreshedEventListener : Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] CachingDelegateEncryptablePropertySource : Property Source systemProperties refreshed
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] CachingDelegateEncryptablePropertySource : Property Source systemEnvironment refreshed
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] CachingDelegateEncryptablePropertySource : Property Source random refreshed
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] CachingDelegateEncryptablePropertySource : Property Source cachedrandom refreshed
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] CachingDelegateEncryptablePropertySource : Property Source springCloudClientHostInfo refreshed
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] CachingDelegateEncryptablePropertySource : Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] CachingDelegateEncryptablePropertySource : Property Source class path resource [eureka/server.properties] refreshed
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource server.ports [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-06-15T15:03:07.174+09:00  INFO 89391 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Management Server [org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$1] to EncryptablePropertySourceWrapper
+2023-06-15T15:03:07.186+09:00  INFO 89391 --- [main] com.example.eureka.EurekaApplication     : Started EurekaApplication in 3.404 seconds (process running for 4.133)
+2023-06-15T15:04:07.171+09:00  INFO 89391 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-15T15:04:47.533+09:00  INFO 89391 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-15T15:04:47.534+09:00  INFO 89391 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-15T15:04:47.537+09:00  INFO 89391 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-06-15T15:04:47.753+09:00  INFO 89391 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/192.168.219.101:gateway:9000 with status UP (replication=false)
+2023-06-15T15:05:04.687+09:00  INFO 89391 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance BAEKER-MEMBER/localhost:8081 with status UP (replication=false)
+2023-06-15T15:05:07.173+09:00  INFO 89391 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-06-15T15:06:07.178+09:00  INFO 89391 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-06-15T15:07:07.182+09:00  INFO 89391 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-06-15T15:07:43.484+09:00  INFO 89391 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-06-15T15:07:43.517+09:00  INFO 89391 --- [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-06-15T15:07:43.529+09:00  INFO 89391 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-06-15T15:07:43.535+09:00  INFO 89391 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-06-15T15:07:43.535+09:00  INFO 89391 --- [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-06-15T15:07:43.536+09:00  INFO 89391 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-06-15T15:07:43.538+09:00  INFO 89391 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-06-15T15:07:43.543+09:00  INFO 89391 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-06-15T15:07:43.544+09:00  INFO 89391 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-06-15T15:41:53.381+09:00  INFO 22703 --- [main] com.example.eureka.EurekaApplication     : Starting EurekaApplication using Java 19.0.2 with PID 22703 (/Users/choedaegug/Desktop/대국이/Coding/practice/team/BaekMSA/Eureka-Server/out/production/classes started by choedaegug in /Users/choedaegug/Desktop/대국이/Coding/practice/team/BaekMSA/Eureka-Server)
+2023-06-15T15:41:53.384+09:00  INFO 22703 --- [main] com.example.eureka.EurekaApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-06-15T15:41:54.170+09:00  INFO 22703 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=65bfed37-157c-3028-96e1-189951d25088
+2023-06-15T15:41:54.198+09:00  INFO 22703 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2023-06-15T15:41:54.199+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2023-06-15T15:41:54.201+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-06-15T15:41:54.201+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-06-15T15:41:54.202+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:41:54.202+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-06-15T15:41:54.202+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-06-15T15:41:54.202+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2023-06-15T15:41:54.202+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:41:54.202+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:41:54.202+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource class path resource [eureka/server.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:41:54.392+09:00  INFO 22703 --- [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-06-15T15:41:54.421+09:00  INFO 22703 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-06-15T15:41:54.424+09:00  INFO 22703 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-06-15T15:41:54.626+09:00  INFO 22703 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2023-06-15T15:41:54.636+09:00  INFO 22703 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-15T15:41:54.637+09:00  INFO 22703 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-15T15:41:54.748+09:00  INFO 22703 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-15T15:41:54.749+09:00  INFO 22703 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1320 ms
+2023-06-15T15:41:56.341+09:00  INFO 22703 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-06-15T15:41:56.341+09:00  INFO 22703 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-06-15T15:41:56.528+09:00  INFO 22703 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-06-15T15:41:56.528+09:00  INFO 22703 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-06-15T15:41:57.800+09:00  WARN 22703 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-06-15T15:41:57.819+09:00  INFO 22703 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-06-15T15:41:57.878+09:00  INFO 22703 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-06-15T15:41:57.878+09:00  INFO 22703 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-06-15T15:41:57.893+09:00  INFO 22703 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1686811317892 with initial instances count: 0
+2023-06-15T15:41:57.928+09:00  INFO 22703 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-06-15T15:41:57.932+09:00  WARN 22703 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-06-15T15:41:57.958+09:00  INFO 22703 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-06-15T15:41:57.960+09:00  INFO 22703 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-06-15T15:41:57.975+09:00  INFO 22703 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-15T15:41:58.060+09:00  INFO 22703 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-06-15T15:41:58.077+09:00  INFO 22703 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-06-15T15:41:58.077+09:00  INFO 22703 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-06-15T15:41:58.078+09:00  INFO 22703 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-06-15T15:41:58.078+09:00  INFO 22703 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-06-15T15:41:58.078+09:00  INFO 22703 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-06-15T15:41:58.090+09:00  INFO 22703 --- [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-06-15T15:41:58.101+09:00  INFO 22703 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2023-06-15T15:41:58.102+09:00  INFO 22703 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-06-15T15:41:58.103+09:00  INFO 22703 --- [main] u.j.c.RefreshScopeRefreshedEventListener : Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2023-06-15T15:41:58.103+09:00  INFO 22703 --- [main] CachingDelegateEncryptablePropertySource : Property Source systemProperties refreshed
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] CachingDelegateEncryptablePropertySource : Property Source systemEnvironment refreshed
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] CachingDelegateEncryptablePropertySource : Property Source random refreshed
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] CachingDelegateEncryptablePropertySource : Property Source cachedrandom refreshed
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] CachingDelegateEncryptablePropertySource : Property Source springCloudClientHostInfo refreshed
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] CachingDelegateEncryptablePropertySource : Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] CachingDelegateEncryptablePropertySource : Property Source class path resource [eureka/server.properties] refreshed
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource server.ports [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-06-15T15:41:58.104+09:00  INFO 22703 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Management Server [org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$1] to EncryptablePropertySourceWrapper
+2023-06-15T15:41:58.157+09:00  INFO 22703 --- [main] com.example.eureka.EurekaApplication     : Started EurekaApplication in 5.351 seconds (process running for 6.106)
+2023-06-15T15:42:05.149+09:00  INFO 22703 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-15T15:42:05.150+09:00  INFO 22703 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-15T15:42:05.153+09:00  INFO 22703 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-06-15T15:42:05.370+09:00  INFO 22703 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance BAEKER-MEMBER/localhost:8081 with status UP (replication=false)
+2023-06-15T15:42:58.153+09:00  INFO 22703 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-15T15:43:00.984+09:00  INFO 22703 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/192.168.219.101:gateway:9000 with status UP (replication=false)
+2023-06-15T15:43:58.150+09:00  INFO 22703 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-15T15:44:58.155+09:00  INFO 22703 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-06-15T15:45:58.160+09:00  INFO 22703 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-06-15T15:46:12.159+09:00  INFO 22703 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/192.168.219.101:gateway:9000 with status DOWN (replication=false)
+2023-06-15T15:46:13.756+09:00  INFO 22703 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-06-15T15:46:13.785+09:00  INFO 22703 --- [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-06-15T15:46:13.793+09:00  INFO 22703 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-06-15T15:46:13.803+09:00  INFO 22703 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-06-15T15:46:13.803+09:00  INFO 22703 --- [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-06-15T15:46:13.804+09:00  INFO 22703 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-06-15T15:46:13.806+09:00  INFO 22703 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-06-15T15:46:13.812+09:00  INFO 22703 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-06-15T15:46:13.813+09:00  INFO 22703 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
